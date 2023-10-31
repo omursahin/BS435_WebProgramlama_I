@@ -31,9 +31,6 @@
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
   },
-  "engines": {
-    "node": "^16.0.0"
-  },
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack serve --open --mode development",
