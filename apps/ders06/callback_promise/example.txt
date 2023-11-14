@@ -1,0 +1,20 @@
+const ajax = new XMLHttpRequest ();
+ajax.onreadystatechange = () => {
+if( ajax.response ){
+const payload = JSON.parse(ajax.response)
+console.log(payload);
+}
+}
+let url = "https://www.boredapi.com/api/activity/"
+ajax.open("GET",url );
+ajax.send();
+
+
+
+const doHttpFetch = async (url) => {
+response = await fetch(url);
+payload = await response.json();
+console.log(payload);
+}
+
+doHttpFetch(url);
