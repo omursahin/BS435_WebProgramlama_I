@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Chat XSS</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="container">
+
+                <h2>Chat XSS</h2>
+                <div>
+                    <p class="inputName">Ad:</p>
+                    <input id="nameInputId" type="text"
+                           class="inputName" value="Crazy42"/>
+                </div>
+                <br/>
+                <div>
+                    <p>Mesaj:</p>
+                    <textarea id="msgInputId" cols="50" rows="5"></textarea>
+                </div>
+                <br/>
+
+                <div id="sendId" class="btn" onclick="sendMessage()">Gönder</div>
+                <div id="msgDiv"></div>
+
+
+        </div>
+
+        <script src="code.js"></script>
+
+
+    </body>
+</html>

