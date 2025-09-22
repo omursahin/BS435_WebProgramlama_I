@@ -9,7 +9,7 @@ const quizzes = [
     },
     {
         question: "JavaScript dilinde aşağıda verilen kodun çıktısı nedir? \n\n+(!![]+!![]+!![]+!![]+[]+(!![]+!![]))",
-        answer_0: "Derleme hatas",
+        answer_0: "Derleme hatası",
         answer_1: "Çalışma zamanı hatası",
         answer_2: "42",
         answer_3: "'42'",
