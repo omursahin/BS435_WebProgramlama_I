@@ -1,19 +1,21 @@
 import './App.css'
 import {useState} from "react";
+import {Login} from "./login.tsx";
+import {Weather} from "./weather.tsx";
 
 function App() {
-    const [name, setName] = useState('');
-    const [password, setPassword] = useState('');
+
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+
 
     return (
         <>
-            <input type="text" placeholder="İsim"
-            onChange={(e) => setName(e.target.value)}/>
+            {/*{isLoggedIn && <h1>Merhaba {name}</h1>}*/}
+            {isLoggedIn ? <h1>Giriş yaptınız</h1> : <h1>Lütfen giriş yapın</h1>}
+            <Login setIsLoggedIn={setIsLoggedIn} />
             <br/>
-            <input type="password" placeholder="Şifre"
-            onChange={(e) => setPassword(e.target.value)}/>
-            <br/>
-            <button>Giriş Yap</button>
+            {isLoggedIn && <Weather/>}
+
         </>
     )
 }
