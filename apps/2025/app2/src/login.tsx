@@ -1,17 +1,21 @@
 import {useState} from "react";
 import {useAuth} from "./AuthContext.tsx";
+import {useNavigate} from "react-router";
 
 export const Login = () => {
     const {
         login,
         logout
     } = useAuth();
+    const nav = useNavigate();
 
     const [name, setName] = useState('');
     const [password, setPassword] = useState('');
     const handleLogin = () => {
         if(name === "test" && password === "123456"){
             login("test");
+            nav("/")
+
         } else{
             logout();
         }
