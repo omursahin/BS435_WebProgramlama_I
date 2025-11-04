@@ -2,20 +2,25 @@ import './App.css'
 import {useState} from "react";
 import {Login} from "./login.tsx";
 import {Weather} from "./weather.tsx";
+import {useAuth} from "./AuthContext.tsx";
+import {Route, Routes} from "react-router";
 
 function App() {
 
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
-
+    const {
+        isLoggedIn,
+        username,
+        login,
+        logout
+    } = useAuth();
 
     return (
         <>
-            {/*{isLoggedIn && <h1>Merhaba {name}</h1>}*/}
-            {isLoggedIn ? <h1>Giriş yaptınız</h1> : <h1>Lütfen giriş yapın</h1>}
-            <Login setIsLoggedIn={setIsLoggedIn} />
-            <br/>
-            {isLoggedIn && <Weather/>}
-
+            {isLoggedIn ? <h2>{username}</h2>:<h2>Giriş Yap</h2>}
+            <Routes>
+                <Route path="/login" element={<Login />} />
+                <Route path="/" element={<Weather/>} />
+            </Routes>
         </>
     )
 }

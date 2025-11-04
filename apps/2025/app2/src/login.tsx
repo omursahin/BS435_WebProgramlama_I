@@ -1,13 +1,19 @@
 import {useState} from "react";
+import {useAuth} from "./AuthContext.tsx";
 
-export const Login = ({setIsLoggedIn}) => {
+export const Login = () => {
+    const {
+        login,
+        logout
+    } = useAuth();
+
     const [name, setName] = useState('');
     const [password, setPassword] = useState('');
     const handleLogin = () => {
         if(name === "test" && password === "123456"){
-            setIsLoggedIn(true);
+            login("test");
         } else{
-            setIsLoggedIn(false);
+            logout();
         }
     }
 
