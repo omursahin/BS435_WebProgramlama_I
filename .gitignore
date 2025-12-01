@@ -2,3 +2,9 @@ node_modules/
 .idea/
 coverage/
 *.log
+
+apps/2025/app3/testproje/__pycache__/
+
+apps/2025/app3/university/__pycache__/
+
+*.pyc
