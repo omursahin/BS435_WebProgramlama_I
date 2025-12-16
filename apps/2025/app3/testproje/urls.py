@@ -20,6 +20,7 @@ from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from faculty.views import FacultyViewSet, FacultyDetail
+from lesson.views import LessonViewSet, LessonDetail
 from university.views import UniversityViewSet, UniversityDetail
 from django.urls import re_path
 from rest_framework import permissions
@@ -52,4 +53,6 @@ urlpatterns = [
     path('api/universities/<pk>', UniversityDetail.as_view()),
     path('api/faculties', FacultyViewSet.as_view()),
     path('api/faculties/<pk>', FacultyDetail.as_view()),
+    path('api/lessons', LessonViewSet.as_view()),
+    path('api/lessons/<pk>', LessonDetail.as_view()),
 ]
