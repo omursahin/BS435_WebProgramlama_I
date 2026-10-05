@@ -1,0 +1,12 @@
+# Hafta 02 alistirmasi icin dort adres.
+# Her biri farkli bir durum kodu ailesi dondurur.
+
+https://example.com
+https://httpbin.org/status/301
+https://httpbin.org/status/404
+https://httpbin.org/json
+
+# Ipucu: httpbin.org, HTTP ogrenmek icin kurulmus bir test servisidir.
+# Calismiyorsa yerine su adresleri kullanabilirsiniz:
+#   https://http.cat/301
+#   https://http.cat/404
