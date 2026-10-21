@@ -1,0 +1,53 @@
+/* =====================================================================
+   ALISTIRMA — Hafta 04
+   Bu dosya kasten eksik. Dort adimi tamamlayin:
+
+     1. .kartlar kapsayicisina  display: flex  ve  gap  verin
+     2. .kart'a  flex  degeri verip  flex-wrap  ile alt satira gecirin
+     3. Butun kutulara  box-sizing: border-box  uygulayin
+     4. F12 -> responsive modda 360 / 768 / 1280 px kontrol edin
+
+   Hedef: hic media query yazmadan uc genislikte de duzgun gorunmesi.
+   ===================================================================== */
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #1b2430;
+  background: #faf7f2;
+  line-height: 1.55;
+}
+
+h1 { margin: 0 0 0.25rem; font-size: 1.7rem; }
+
+.aciklama { margin: 0 0 1.75rem; color: #77808c; }
+
+/* --- 1. ADIM: burasi su an sadece bir blok. Flex kapsayicisi yapin. --- */
+.kartlar {
+  /* display: flex;  */
+  /* flex-wrap: wrap; */
+  /* gap: 1rem;       */
+}
+
+/* --- 2. ADIM: kartlar su an tam genislik kapliyor. --- */
+.kart {
+  /* flex: 1 1 18rem;  <- taban 18rem, sigmayinca alt satira gecer */
+
+  width: 320px;              /* 3. ADIM'da bunun neden sorun oldugunu goreceksiniz */
+  padding: 1.1rem 1.25rem;
+  border: 1px solid #ded8cf;
+  border-left: 3px solid #c2532f;
+  background: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.kart h2 { margin: 0 0 0.2rem; font-size: 1.05rem; }
+
+.kod { margin: 0 0 0.6rem; color: #77808c; font-size: 0.85rem; }
+
+.kart p:last-child { margin: 0; }
+
+/* --- 3. ADIM: bunu acin ve kartlarin genisliginin nasil degistigine bakin ---
+* { box-sizing: border-box; }
+*/
