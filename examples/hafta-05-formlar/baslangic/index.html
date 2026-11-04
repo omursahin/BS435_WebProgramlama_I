@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kayıt formu — başlangıç</title>
+    <link rel="stylesheet" href="stil.css">
+  </head>
+  <body>
+    <main>
+      <h1>Etkinlik kaydı</h1>
+
+      <!-- ================================================================
+           ALISTIRMA
+           Asagidaki form kasten eksik birakildi:
+             - label yok
+             - bazi alanlarda name yok
+             - type'lar yanlis
+             - method GET (parola icin YANLIS)
+
+           Gorevleriniz:
+             1. Her alana label ve name ekleyin
+             2. method="get" ile gonderip adres cubugunu okuyun
+             3. method="post" yapip Network -> Payload'i okuyun
+             4. Bir alanin name'ini silip tekrar gonderin: ne kayboldu?
+           ================================================================ -->
+
+      <form action="https://httpbin.org/get" method="get">
+
+        <p>
+          Ad Soyad
+          <input type="text">
+        </p>
+
+        <p>
+          E-posta
+          <input type="text" name="eposta">
+        </p>
+
+        <p>
+          Parola
+          <input type="text" name="sifre">
+        </p>
+
+        <p>
+          Bölüm
+          <select>
+            <option value="bm">Bilgisayar Mühendisliği</option>
+            <option value="ee">Elektrik-Elektronik</option>
+            <option value="ie">Endüstri Mühendisliği</option>
+          </select>
+        </p>
+
+        <p>
+          <button type="submit">Kaydol</button>
+        </p>
+
+      </form>
+    </main>
+  </body>
+</html>

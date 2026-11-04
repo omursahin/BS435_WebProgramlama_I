@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Staj başvurusu">
+  <rect width="480" height="320" fill="#ece7df"/>
+  <rect x="0.5" y="0.5" width="479" height="319" fill="none" stroke="#ded8cf"/>
+  <g fill="#c2b9ab">
+    <circle cx="120" cy="105" r="34"/>
+    <path d="M60 250 L175 130 L265 215 L320 170 L420 250 Z"/>
+  </g>
+  <text x="240" y="288" text-anchor="middle"
+        font-family="system-ui, sans-serif" font-size="19" fill="#77808c">Staj başvurusu</text>
+  <text x="240" y="308" text-anchor="middle"
+        font-family="system-ui, sans-serif" font-size="12" fill="#9aa2ad">yer tutucu görsel</text>
+</svg>
