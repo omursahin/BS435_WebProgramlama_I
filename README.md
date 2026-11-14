@@ -1,11 +1,11 @@
 # BS435 · Web Programlama I
 
-Bu ders genel olarak protokol tabanlıdır. Belirli bir framework yerine web'in nasıl çalıştığı anlatılır. Dersler işlendikçe slaytlar eklenecektir. 
+Bu ders genel olarak protokol tabanlıdır. Belirli bir framework yerine web'in nasıl çalıştığı anlatılır. Dersler işlendikçe slaytlar eklenmektedir; şu an 6. haftaya kadar olan slaytlar yüklüdür.
 
 Bütün derslere genel bakış için: [`docs/00-mufredat.pdf`](docs/00-mufredat.pdf)
 
 Her haftanın slaytı ve ders içi alıştırma dosyaları aşağıdaki tablodan
-bağlantılıdır. Boş satırlar henüz işlenmemiş haftalardır.
+bağlantılıdır. Materyal sütunu boş olan satırlar henüz işlenmemiş haftalardır.
 
 ## Haftalar
 
@@ -14,11 +14,11 @@ bağlantılıdır. Boş satırlar henüz işlenmemiş haftalardır.
 | # | Konu | Haftanın sorusu | Materyal |
 |---|---|---|---|
 | 01 | İnternet ve web nasıl çalışır | `example.com` yazıp Enter'a bastığımızda ne olur? | [slayt](docs/hafta-01.pdf) · [alıştırma](examples/hafta-01-internet-ve-web/) |
-| 02 | HTTP protokolü | Tarayıcı ile sunucu hangi bilgileri gönderiyor? | — |
-| 03 | Tarayıcı ve HTML | Tarayıcı bir metin dosyasını nasıl ekrana çeviriyor? | — |
-| 04 | CSS ve sayfa düzeni | Aynı HTML telefonda ve masaüstünde nasıl farklı görünüyor? | — |
-| 05 | Formlar ve veri gönderimi | Form alanları HTTP isteğine nasıl dönüşüyor? | — |
-| 06 | Git, GitHub ve yayına alma | Bilgisayarımdaki klasör nasıl internetteki bir adrese dönüşüyor? | — |
+| 02 | HTTP protokolü | Tarayıcı ile sunucu hangi bilgileri gönderiyor? | [slayt](docs/hafta-02.pdf) · [alıştırma](examples/hafta-02-http/) |
+| 03 | Tarayıcı ve HTML | Tarayıcı bir metin dosyasını nasıl ekrana çeviriyor? | [slayt](docs/hafta-03.pdf) · [alıştırma](examples/hafta-03-html/) |
+| 04 | CSS ve sayfa düzeni | Aynı HTML telefonda ve masaüstünde nasıl farklı görünüyor? | [slayt](docs/hafta-04.pdf) · [alıştırma](examples/hafta-04-css/) |
+| 05 | Formlar ve veri gönderimi | Form alanları HTTP isteğine nasıl dönüşüyor? | [slayt](docs/hafta-05.pdf) · [alıştırma](examples/hafta-05-formlar/) |
+| 06 | Git, GitHub ve yayına alma | Bilgisayarımdaki klasör nasıl internetteki bir adrese dönüşüyor? | [slayt](docs/hafta-06.pdf) · [alıştırma](examples/hafta-06-git-ve-yayin/) |
 
 ### Blok 2 — Programlama ve dinamik web
 

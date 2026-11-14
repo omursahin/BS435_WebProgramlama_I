@@ -1,0 +1,32 @@
+# Yeniden oluşturulabilen bağımlılıklar ve Python önbelleği
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Gizli bilgiler ve anahtar dosyaları
+.env
+.env.local
+*.pem
+*.key
+gizli*.json
+
+# Geçici dosyalar ve derleme çıktıları
+*.log
+*.tmp
+dist/
+build/
+.cache/
+
+# İşletim sistemi ve editör dosyaları
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Yerel veritabanı dosyaları
+*.sqlite
+*.sqlite3
+*.db
